@@ -1,6 +1,6 @@
 # **The Real Deal Behind the Artificial Appeal: Inferential Utility of Tabular Synthetic Data**
 
-Code to reproduce results in "The Real Deal Behind the Artificial Appeal: Inferential Utility of Tabular Synthetic Data", presented during the 40th Conference on Uncertainty in Artificial Intelligence (2024) and available from https://arxiv.org/pdf/2312.07837.
+Code to reproduce results in "The Real Deal Behind the Artificial Appeal: Inferential Utility of Tabular Synthetic Data", presented during the 40th Conference on Uncertainty in Artificial Intelligence (2024) and available from https://proceedings.mlr.press/v244/decruyenaere24a.html.
 
 In this work, we highlight the importance of inferential utility and provide empirical evidence against naive inference from synthetic data, whereby synthetic data are treated as if they were actually observed. Before publishing synthetic data, it is essential to develop statistical inference tools for such data. By means of a simulation study, we show that the rate of false-positive findings (type 1 error) will be unacceptably high, even when the estimates are unbiased. Despite the use of a previously proposed correction factor, this problem persists for deep generative models, in part due to slower convergence of estimators and resulting underestimation of the true standard error. We further demonstrate our findings through a case study.
 
@@ -33,10 +33,19 @@ Case study:
 If our paper or code helped you in your own research, please cite our work as:
 
 ```
-@inproceedings{decruyenaere2024synthetic,
-  title={The Real Deal Behind the Artificial Appeal: Inferential Utility of Tabular Synthetic Data},
-  author={Decruyenaere, Alexander and Dehaene, Heidelinde and Rabaey, Paloma and Polet, Christiaan and Decruyenaere, Johan and Vansteelandt, Stijn and Demeester, Thomas},
-  year={2024},
-  organization={40th Conference on Uncertainty in Artificial Intelligence}
+@InProceedings{pmlr-v244-decruyenaere24a,
+  title = 	 {The Real Deal Behind the Artificial Appeal: Inferential Utility of Tabular Synthetic Data},
+  author =       {Decruyenaere, Alexander and Dehaene, Heidelinde and Rabaey, Paloma and Polet, Christiaan and Decruyenaere, Johan and Vansteelandt, Stijn and Demeester, Thomas},
+  booktitle = 	 {Proceedings of the Fortieth Conference on Uncertainty in Artificial Intelligence},
+  pages = 	 {966--996},
+  year = 	 {2024},
+  editor = 	 {Kiyavash, Negar and Mooij, Joris M.},
+  volume = 	 {244},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {15--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v244/main/assets/decruyenaere24a/decruyenaere24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v244/decruyenaere24a.html},
+  abstract = 	 {Recent advances in generative models facilitate the creation of synthetic data to be made available for research in privacy-sensitive contexts. However, the analysis of synthetic data raises a unique set of methodological challenges. In this work, we highlight the importance of inferential utility and provide empirical evidence against naive inference from synthetic data, whereby synthetic data are treated as if they were actually observed. Before publishing synthetic data, it is essential to develop statistical inference tools for such data. By means of a simulation study, we show that the rate of false-positive findings (type 1 error) will be unacceptably high, even when the estimates are unbiased. Despite the use of a previously proposed correction factor, this problem persists for deep generative models, in part due to slower convergence of estimators and resulting underestimation of the true standard error. We further demonstrate our findings through a case study.}
 }
 ```
